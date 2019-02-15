@@ -1,0 +1,43 @@
+{
+  "name": "ts-koa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec ts-node src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardwei195/ts-koa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richardwei195/ts-koa/issues"
+  },
+  "homepage": "https://github.com/richardwei195/ts-koa#readme",
+  "dependencies": {
+    "@types/koa": "^2.0.48",
+    "@types/koa-bodyparser": "^4.2.2",
+    "@types/koa-router": "^7.0.39",
+    "@types/lodash": "^4.14.121",
+    "ajv": "^6.9.1",
+    "cheerio": "^1.0.0-rc.2",
+    "config": "^3.0.1",
+    "crawler": "^1.2.0",
+    "iconv-lite": "^0.4.24",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-cors": "0.0.16",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.11",
+    "log4js": "^4.0.2",
+    "nodemon": "^1.18.10",
+    "request": "^2.88.0",
+    "supertest": "^3.4.2",
+    "ts-node": "^8.0.2",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  }
+}

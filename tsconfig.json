@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "noUnusedLocals": true,
+    "rootDir": "src",
+    "outDir": "lib",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true
+  },
+  "include": [
+    "src/**/*",
+    "test/**/*"
+  ]
+}

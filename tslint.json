@@ -1,0 +1,50 @@
+{
+  "rules": {
+    "align": [
+      true,
+      "parameters",
+      "statements"
+    ],
+    "class-name": true,
+    "comment-format": [
+      true,
+      "check-space",
+      "check-lowercase"
+    ],
+    "import-spacing": true,
+    "indent": [
+      true,
+      "spaces",
+      2
+    ],
+    "max-line-length": [
+      true,
+      250
+    ],
+    "no-consecutive-blank-lines": true,
+    "no-console": [
+      true,
+      "log",
+      "trace"
+    ],
+    "no-duplicate-variable": true,
+    "no-empty": true,
+    "no-eval": true,
+    "no-trailing-whitespace": true,
+    "no-var-keyword": true,
+    "prefer-const": true,
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "semicolon": [
+      true,
+      "never"
+    ],
+    "array-type": [
+      true,
+      "array-simple"
+    ],
+    "arrow-parens": true
+  }
+}
