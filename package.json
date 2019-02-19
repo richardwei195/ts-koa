@@ -5,7 +5,10 @@
   "main": "lib/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --watch 'src/**/*.ts' --exec ts-node src/app.ts"
+    "dev": "nodemon --watch 'src/**/*.ts' --exec ts-node src/app.ts",
+    "build": "tsc",
+    "lint": "tslint src/**/*.ts -t verbose",
+    "lint-fix": "tslint --fix src/**/*.ts test/**/*.ts"
   },
   "repository": {
     "type": "git",
@@ -23,10 +26,7 @@
     "@types/koa-router": "^7.0.39",
     "@types/lodash": "^4.14.121",
     "ajv": "^6.9.1",
-    "cheerio": "^1.0.0-rc.2",
     "config": "^3.0.1",
-    "crawler": "^1.2.0",
-    "iconv-lite": "^0.4.24",
     "koa": "^2.7.0",
     "koa-bodyparser": "^4.2.1",
     "koa-cors": "0.0.16",
